@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main_container {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #3b3b3b;
+    font-size: 24px;
+    color: white;
+    padding-left: 10px;
+}
+
+/* 검색 */
+
+.search_container {
+    width: 70%;
+    min-width: 780px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.search_title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+    width: 100%;
+}
+
+.search_content {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #7e7e7e;
+}
+
+/* 검색 끝 */
+
+/* 사용자 */
+.user_container {
+    display: flex;
+    width: 70%;
+    min-width: 780px;
+    height: 360px;
+    padding: 10px;
+    margin: 20px auto;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.user {
+    width: 30%;
+    max-width: 250px;
+    height: 100%;
+
+}
+
+.user img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+
+    /* max-width: 200px; */
+}
+
+.user button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5e5e5e;
+    font-size: 18px;
+    color: white;
+}
+
+.user_detail {
+    /* width: auto; */
+    height: 100%;
+    margin-left: 20px;
+}
+
+.user_detail button {
+    height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.user_info {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.user_info div {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 사용자 끝 */
+
+/* 리스트 */
+
+.repo_container {
+    width: 70%;
+    min-width: 780px;
+    margin: 20px auto;
+
+}
+
+.repo_title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.repo_detail {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.repo_name {
+    min-width: 50%;
+    font-size: 24px;
+    text-decoration: none;
+}
+.repo_detail button {
+    min-width: 90px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* 리스트 끝 */
+
+/* 푸터 */
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #3b3b3b;
+    color: white;
+    justify-content: center;
+    
+}
